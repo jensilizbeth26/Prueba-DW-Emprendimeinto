@@ -1,13 +1,25 @@
+body{
+
+    background-image: url(https://res.cloudinary.com/dwzxys5zi/image/upload/v1743607758/fondo_zkyabq.jpg);
+}
+
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-.container{
+.comprar-btn {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1rem;
+}
 
-    display: flex;
- 
-    background-color: #f6f4f4;
+.comprar-btn:hover {
+    background-color: var(--color-dark);
+    transform: scale(1.05);
 }
 .navbar{
     display: grid;
@@ -16,8 +28,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px ;
-    background-color: #24176e;
-    color: white;
+    background-color: rgb(245, 149, 149);
+    color: rgb(248, 246, 246);
     width: 100%;
 }
 .navbar ul{
@@ -32,7 +44,7 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+    color: hsl(0, 4%, 9%);
 }
 .image-nav{
     width: 50%;
@@ -49,7 +61,7 @@
     margin: 20px;
     border-radius: 10px;
     background-color: #f6f4f4;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(138, 15, 15, 0.1);
     width: 100%;
 }
 .texto{
